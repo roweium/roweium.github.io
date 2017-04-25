@@ -1,0 +1,79 @@
+<html lang="en-US" itemscope="" itemtype="http://schema.org/Blog" prefix="og: http://ogp.me/ns#" class=" ">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8; IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta name="theme-color" content="#333333"> 
+<meta name="msapplication-navbutton-color" content="#333333"> 
+<meta name="coverage" content="Worldwide"> 
+<meta name="distribution" content="Global"> 
+<meta name="rating" content="General"> 
+<meta property="og:title" content="{{ site.description }}"> 
+<meta property="og:type" content="website"> 
+<meta property="og:url" content="https://roweium.com/"> 
+<meta property="og:description" content="{{ site.description }}"> 
+<meta property="og:site_name" content="roweium"> 
+<meta property="og:image" content="http://roweium.com/assets/roweium-200x200.png"> 
+<meta property="og:image:secure_url" content="http://roweium.com/assets/roweium-200x200.png"> 
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="200"> 
+<meta property="og:image:height" content="200"> 
+<meta name="twitter:card" content="summary"> 
+<meta name="twitter:site" content="@roweium"> 
+<meta name="twitter:title" content="{{ site.description }}"> 
+<meta name="twitter:description" content="{{ site.description }}"> 
+<meta name="twitter:image" content="http://roweium.com/assets/twitter_card.png"> 
+<meta property="twitter:account_id" content=""> 
+<meta name="google-site-verification" content=""/> 
+
+
+<link rel="apple-touch-icon" sizes="57x57" href="{{ "/assets/ico/apple-icon-57x57.png" | prepend: site.baseurl }}">
+<link rel="apple-touch-icon" sizes="60x60" href="{{ "/assets/ico/apple-icon-60x60.png" | prepend: site.baseurl }}">
+<link rel="apple-touch-icon" sizes="72x72" href="{{ "/assets/ico/apple-icon-72x72.png" | prepend: site.baseurl }}">
+<link rel="apple-touch-icon" sizes="76x76" href="{{ "/assets/ico/apple-icon-76x76.png" | prepend: site.baseurl }}">
+<link rel="apple-touch-icon" sizes="114x114" href="{{ "/assets/ico/apple-icon-114x114.png" | prepend: site.baseurl }}">
+<link rel="apple-touch-icon" sizes="120x120" href="{{ "/assets/ico/apple-icon-120x120.png" | prepend: site.baseurl }}">
+<link rel="apple-touch-icon" sizes="144x144" href="{{ "/assets/ico/apple-icon-144x144.png" | prepend: site.baseurl }}">
+<link rel="apple-touch-icon" sizes="152x152" href="{{ "/assets/ico/apple-icon-152x152.png" | prepend: site.baseurl }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/ico/apple-icon-180x180.png" | prepend: site.baseurl }}">
+<link rel="icon" type="image/png" sizes="192x192"  href="{{ "/assets/ico/android-icon-192x192.png" | prepend: site.baseurl }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/ico/favicon-32x32.png" | prepend: site.baseurl }}">
+<link rel="icon" type="image/png" sizes="96x96" href="{{ "/assets/ico/favicon-96x96.png" | prepend: site.baseurl }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/ico/favicon-16x16.png" | prepend: site.baseurl }}">
+<link rel="manifest" href="{{ "/assets/ico/manifest.json" | prepend: site.baseurl }}">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="{{ "/assets/ico/ms-icon-144x144.png" | prepend: site.baseurl }}">
+<meta name="theme-color" content="#ffffff">
+    
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+        <!--google fonts-->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+       <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,700,800' rel='stylesheet' type='text/css'>
+  <!-- Font-Awesome -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="{{ "/assets/css/bootstrap.min.css" | prepend: site.baseurl }}">
+ <!-- Animate -->  
+ <link rel="stylesheet" href="{{ "/assets/css/animate.css" | prepend: site.baseurl }}">
+    	<!-- Icon-font -->
+<link rel="stylesheet" href="{{ "/assets/css/ionicons.min.css" | prepend: site.baseurl }}">
+  <!-- Magnific-popup -->
+<link rel="stylesheet" href="{{ "/assets/css/magnific-popup.css" | prepend: site.baseurl }}">
+  
+    <!-- Roweium CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ "/assets/css/roweium.min.css" | prepend: site.baseurl }}">
+
+
+  
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    {% feed_meta %}
+</head>

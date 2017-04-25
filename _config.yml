@@ -1,0 +1,44 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Roweium Design Agency
+email: hello@roweium.com
+description: > # this means to ignore newlines until "baseurl:"
+ Roweium Design Agency. is a Digital Agency that specializes in e-commerce website design, custom development, mobile apps. innovative web development company. 
+baseurl: "/" 
+url: "http://roweium.github.io" # the base hostname & protocol for your site
+
+# Social media profiles - feel free to add more here
+twitter_username: Roweium
+github_username:  Roweium
+facebook_username: Roweium
+#linkedin_url: https://
+#instagram_username: beyonce
+#stackoverflow_url: https://
+#googleplus_username: BobMarley
+#skype_username: echo123
+#youtube_url: https://
+
+# Address information
+address_street: 4072 Forte Ave
+address_city: Montreal
+address_state: QC
+address_zip: H2H 424
+
+# Google Analytics
+google_tracking_id: UA-91061774-1
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
+
