@@ -1,0 +1,73 @@
+ <!-- Team
+    ================================================== -->
+    <section id="team" class="tp--section tp--team tp--team-2">
+
+      <div class="page-header text-center tp--title-overlay">
+          <h2 data-title="Team"><span>Meet Our Team</span></h2>
+        </div>
+
+      <div class="owl-carousel tp--slider-multiple">
+        <div class="item">
+          <img class="display-pic" src="assets/images/user-avatar4.jpg" alt="Team Member">
+            <h3 class="name">Richard Rowe</h3>
+            <h4 class="title">Founder</h4>
+            <p class="desc">Insatiable appetite for all things digital. Product guy. Founder of <a href="../../../../healthcoach.io" target="blank">@HealthCoachApp</a>. Footballer and diehard Manchester United fan</p>
+            <a class="icon tp--icon-twitter-hover" href="../../../../twitter.com/dparrelli" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a class="icon tp--icon-facebook-hover" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a class="icon tp--icon-linkedin-hover" href="../../../../linkedin.com/pub/david-parrelli/17/b22/a11" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a class="icon tp--icon-dribbble-hover" href="../../../../dribbble.com/dparrelli" target="_blank"><i class="fa fa-dribbble"></i></a>
+        </div>
+        <div class="item">
+          <img class="display-pic" src="assets/images/user-avatar5.jpg" alt="Team Member">
+            <h3 class="name">JP Lacroque</h3>
+            <h4 class="title">UI Designer</h4>
+            <p class="desc">Maecenas eu placerat ante. Fusce ut neque justo, et aliquet enim. In hac habitasse platea dictumst. Nullam commodo neque erat.</p>
+            <a class="icon tp--icon-twitter-hover" href="../../../../twitter.com/dparrelli" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a class="icon tp--icon-facebook-hover" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a class="icon tp--icon-linkedin-hover" href="../../../../linkedin.com/pub/david-parrelli/17/b22/a11" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a class="icon tp--icon-dribbble-hover" href="../../../../dribbble.com/dparrelli" target="_blank"><i class="fa fa-dribbble"></i></a>
+        </div>
+        <div class="item">
+          <img class="display-pic" src="assets/images/user-avatar6.jpg" alt="Team Member">
+            <h3 class="name">Hemal Sharma</h3>
+            <h4 class="title">Senior Developer</h4>
+            <p class="desc">Maecenas eu placerat ante. Fusce ut neque justo, et aliquet enim. In hac habitasse platea dictumst. Nullam commodo neque erat.</p>
+            <a class="icon tp--icon-twitter-hover" href="../../../../twitter.com/dparrelli" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a class="icon tp--icon-facebook-hover" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a class="icon tp--icon-linkedin-hover" href="../../../../linkedin.com/pub/david-parrelli/17/b22/a11" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a class="icon tp--icon-dribbble-hover" href="../../../../dribbble.com/dparrelli" target="_blank"><i class="fa fa-dribbble"></i></a>
+        </div>
+        <div class="item">
+          <img class="display-pic" src="assets/images/user-avatar1.jpg" alt="Team Member">
+            <h3 class="name">Sarah Miller</h3>
+            <h4 class="title">Creative Director</h4>
+            <p class="desc">Maecenas eu placerat ante. Fusce ut neque justo, et aliquet enim. In hac habitasse platea dictumst. Nullam commodo neque erat.</p>
+            <a class="icon tp--icon-twitter-hover" href="../../../../twitter.com/dparrelli" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a class="icon tp--icon-facebook-hover" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a class="icon tp--icon-linkedin-hover" href="../../../../linkedin.com/pub/david-parrelli/17/b22/a11" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a class="icon tp--icon-dribbble-hover" href="../../../../dribbble.com/dparrelli" target="_blank"><i class="fa fa-dribbble"></i></a>
+        </div>
+        <div class="item">
+          <img class="display-pic" src="assets/images/user-avatar2.jpg" alt="Team Member">
+            <h3 class="name">Sam Nuemann</h3>
+            <h4 class="title">Developer</h4>
+            <p class="desc">Maecenas eu placerat ante. Fusce ut neque justo, et aliquet enim. In hac habitasse platea dictumst. Nullam commodo neque erat.</p>
+            <a class="icon tp--icon-twitter-hover" href="../../../../twitter.com/dparrelli" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a class="icon tp--icon-facebook-hover" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a class="icon tp--icon-linkedin-hover" href="../../../../linkedin.com/pub/david-parrelli/17/b22/a11" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a class="icon tp--icon-dribbble-hover" href="../../../../dribbble.com/dparrelli" target="_blank"><i class="fa fa-dribbble"></i></a>
+        </div>
+        <div class="item">
+          <img class="display-pic" src="assets/images/user-avatar3.jpg" alt="Team Member">
+            <h3 class="name">Peter Filloti</h3>
+            <h4 class="title">Account Manager</h4>
+            <p class="desc">Maecenas eu placerat ante. Fusce ut neque justo, et aliquet enim. In hac habitasse platea dictumst. Nullam commodo neque erat.</p>
+            <a class="icon tp--icon-twitter-hover" href="../../../../twitter.com/dparrelli" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a class="icon tp--icon-facebook-hover" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a class="icon tp--icon-linkedin-hover" href="../../../../linkedin.com/pub/david-parrelli/17/b22/a11" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a class="icon tp--icon-dribbble-hover" href="../../../../dribbble.com/dparrelli" target="_blank"><i class="fa fa-dribbble"></i></a>
+        </div>
+
+      </div>
+
+    </section>
