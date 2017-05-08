@@ -408,7 +408,7 @@ blockquote.blockquote-large {
   font-weight: bold;
   line-height: 80px;
   margin: 0;
-  padding-top: 5px;
+  padding-top: 15px;
 }
 
 @media (min-width: 992px) {
@@ -429,9 +429,8 @@ blockquote.blockquote-large {
 }
 
 .tp--header .logo a img {
-  max-width: 120px;
+  max-width: 110px;
   vertical-align: inherit;
-  margin-top: 5px;
 }
 
 .tp--header .logo a img.logo-dark {
@@ -1087,6 +1086,7 @@ blockquote.blockquote-large {
 
 .tp--header-shrink .logo {
   line-height: 100px !important;
+
 }
 
 .tp--header-shrink nav .nav > li a {
@@ -1108,7 +1108,7 @@ blockquote.blockquote-large {
 }
 
 .tp--header-shrink.shrink .logo a img {
-  max-width: 80px;
+  max-width: 110px;
 }
 
 .tp--header-shrink.shrink .logo a img.logo-main {
