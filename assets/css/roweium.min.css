@@ -7443,16 +7443,16 @@ a:hover {
 }
 
 .tp--preloader .tp--spinner .loader-inner div {
-  background-color: #92CAE6;
+  background-color: #F01C24;
 }
 
 .label-primary {
-  background-color: #92CAE6 !important;
+  background-color: #F01C24 !important;
 }
 
 .btn-primary {
-  background-color: #92CAE6 !important;
-  border-color: #92CAE6 !important;
+  background-color: #F01C24 !important;
+  border-color: #F01C24 !important;
 }
 
 .btn-primary:hover {
@@ -7461,8 +7461,8 @@ a:hover {
 }
 
 .btn-primary-outline {
-  color: #92CAE6 !important;
-  border-color: #92CAE6 !important;
+  color: #F01C24 !important;
+  border-color: #F01C24 !important;
   background-image: none!important;
   background-color: transparent!important;
 }
@@ -7477,8 +7477,8 @@ a:hover {
 }
 
 .btn-cta {
-  background-color: #92CAE6 !important;
-  border-color: #92CAE6 !important;
+  background-color: #F01C24 !important;
+  border-color: #F01C24 !important;
 }
 
 .btn-cta:hover {
@@ -7524,14 +7524,14 @@ a:hover {
 }
 
 .tp--section-dark {
-  background-color: #92CAE6 !important;
-  background: #92CAE6 !important;
-  background: -webkit-linear-gradient(top, #92CAE6, #bbdef0) !important;
-  background: linear-gradient(to bottom, #92CAE6, #bbdef0) !important;
+  background-color: #F01C24 !important;
+  background: #F01C24 !important;
+  background: -webkit-linear-gradient(top, #F01C24, #bbdef0) !important;
+  background: linear-gradient(to bottom, #F01C24, #bbdef0) !important;
 }
 
 #intro.tp--intro-dark {
-  background-color: #92CAE6 !important;
+  background-color: #F01C24 !important;
 }
 
 .tp--section.tp--diagonal:before {
@@ -7543,7 +7543,7 @@ a:hover {
 }
 
 .tp--section.tp--diagonal.tp--section-dark:before {
-  background-color: #92CAE6 !important;
+  background-color: #F01C24 !important;
 }
 
 .tp--section.tp--diagonal.tp--section-light {
@@ -8113,8 +8113,8 @@ a:hover {
 
 .tp--section .page-header i.tp--background-white {
   background: #3fa2d3 !important;
-  background: -webkit-linear-gradient(top, #3fa2d3, #92CAE6) !important;
-  background: linear-gradient(to bottom, #3fa2d3, #92CAE6) !important;
+  background: -webkit-linear-gradient(top, #3fa2d3, #F01C24) !important;
+  background: linear-gradient(to bottom, #3fa2d3, #F01C24) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   position: relative;
@@ -8152,15 +8152,15 @@ a:hover {
 
 .is-IE .tp--section .page-header i.tp--background-white {
   background: white !important;
-  color: #92CAE6 !important;
+  color: #F01C24 !important;
 }
 
 .tp--icon-coloured {
-  color: #92CAE6 !important;
+  color: #F01C24 !important;
 }
 
 .tp--icon-gradient {
-  color: #92CAE6;
+  color: #F01C24;
   background: -webkit-gradient(linear, left top, left bottom, from(#3fa2d3), to(#92CAE6));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -8171,7 +8171,7 @@ a:hover {
 }
 
 .tp--feature .tp--icon-wrapper i.tp--background-white {
-  color: #92CAE6;
+  color: #F01C24;
   background: -webkit-gradient(linear, left top, left bottom, from(#3fa2d3), to(#92CAE6));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -8198,11 +8198,11 @@ a:hover {
 }
 
 .tp--pricing.tp--pricing-1 .plans .plan.featured:before {
-  background: #92CAE6;
+  background: #F01C24;
 }
 
 .tp--pricing.tp--pricing-1 .plans .plan .plan-cta .btn-primary {
-  background-color: #92CAE6 !important;
+  background-color: #F01C24 !important;
   color: white !important;
 }
 
@@ -8211,15 +8211,15 @@ a:hover {
 }
 
 .tp--portfolio .tp--portfolio-filters .tp--menu-list .tp--menu-item--current .tp--menu-link {
-  color: #92CAE6;
+  color: #F01C24;
 }
 
 .tp--portfolio .tp--portfolio-filters .tp--menu-list .tp--menu-item--current .tp--menu-link:focus {
-  color: #92CAE6;
+  color: #F01C24;
 }
 
 .tp--portfolio .tp--portfolio-filters .tp--menu-line:after {
-  background: #92CAE6;
+  background: #F01C24;
 }
 
 .tp--portfolio.tp--section-dark .tp--portfolio-filters .tp--menu-list .tp--menu-item .tp--menu-link {
@@ -8249,12 +8249,12 @@ a:hover {
 }
 
 .tp--authentication .form-authentication .form-group i {
-  color: #92CAE6;
+  color: #F01C24;
 }
 
 .tp--authentication .form-authentication button[type='submit'],
 .tp--authentication .form-authentication input[type='submit'] {
-  background: #92CAE6;
+  background: #F01C24;
 }
 
 .tp--authentication .form-authentication button[type='submit']:hover,
@@ -8439,7 +8439,7 @@ th.tabco3 {
   color: #fff;
 }
 th.tabco4 {
-	background: #E53935;
+	background: #e91a21;
 	
 	padding: 20px 10px !important;
 	font-size: 18px;
