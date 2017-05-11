@@ -8446,6 +8446,19 @@ th.tabco4 {
 	text-transform: uppercase;
 }
 
+.tabco6 {
+  background: #EF5350;
+  text-align: center;
+  color: #fff;
+}
+th.tabco6 {
+	background: #e91a21;
+	
+	padding: 20px 10px !important;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
 .tabco5 {
   background: #fff;
   width: auto;
