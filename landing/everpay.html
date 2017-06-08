@@ -1,239 +1,565 @@
-<!DOCTYPE html>
-<html lang="en-US" class=" ">
 
-  {% include head.html %}
+<!doctype html>
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml" dir="ltr" class=" js no-touch cssanimations csstransitions">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Taxi App | Click Labs</title>
+<meta property="og:title" content="Taxi App | Click Labs" />
+<meta name="description" content="Click Labs works with Tech-Startups & Entrepreneurs to create customized solutions for Marketplaces, On Demand Mobile Services and Curation Models." />
+<meta property="og:description" content="Click Labs works with Tech-Startups & Entrepreneurs to create customized solutions for Marketplaces, On Demand Mobile Services and Curation Models."/>
+<meta property="og:url" content="http://nextjuggernaut.com/" />
+<meta property="og:image" content="http://nextjuggernaut.com/img/og-logo.png" />
+<link rel="icon" href="http://click-labs.com/wp-content/uploads/2015/07/apple-icon-60x60.png" type="image/png">
+<base href="/landing/" />
+<link href="css/b.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style_v1.css" type="text/css" media="all">
+<link href="css/font-awesome.min.css" rel="stylesheet">
 
-  <body id="page-top">
-    <!--[if lt IE 10]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+<!--<script src="./jgn_files/jquery-1.11.0.min.js" type="text/javascript"></script>-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="http://click-labs.com/wp-content/themes/pixelpress/js/jquery.cookie.js"></script>
+<script src="js/validation.js"></script>
+<script src="js/js_v1.js"></script>
+
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@   POP UP Settings   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.bpopup.js"></script>
+<script src="js/jquery.bpopup.min.js"></script>
+
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>-->
+<script src="js/ouibounce.js"></script>
+
+<script type="text/javascript">
+function slideup(id) {
+    jQuery( 'html, body' ).animate({ scrollTop: jQuery( '#' + id ).offset().top }, 800 ); 
+  }
+  
+ /* $('element_to_pop_up').bPopup({
+	    easing: 'easeOutBack', //uses jQuery easing plugin
+            speed: 450,
+            transition: 'slideDown'
+        });*/
+		
+		/*;(function($) {
+        $(function() {
+            $('#l_effective').bind('click', function(e) {
+                e.preventDefault();
+                $('#pop_up_elements').bPopup({
+					
+					easing: 'easeOutBack', //uses jQuery easing plugin
+					speed: 750,
+					transition: 'slideDown',
+					zIndex: 2
+					, modalClose: true
+                });
+            });
+         });
+     })(jQuery);*/
+	 
+  jQuery(document).ready(function() {
+		
+		/* jQuery('#pop_up_elements_close, #lp_pop_m_effective').click(function() {
+			  var bPopup = $('#pop_up_elements').bPopup({
+					  easing: 'easeOutBack', //uses jQuery easing plugin
+					  speed: 950,
+					  transition: 'slideUp'
+					  });
+			  bPopup.close(); 
+	   });
+	   
+	   jQuery('#lp_pop_m_effective').click(function() {
+			  var bPopup = $('#pop_up_elements').bPopup({	
+					  });
+			  bPopup.close(); 
+			  jQuery('#lpName').focus();
+	   });
+	   
+	   jQuery('#m_effective').click(function() {
+	        jQuery('#lpName').focus();
+	   });
+	   */
+	   
+	   // Exit PopUp Settings
+	   
+	  /* jQuery('#page_exit_popup_btn').bind('click', function(e) {
+                e.preventDefault();
+                jQuery('#page_exit_popup_elements').bPopup({
+					
+					easing: 'easeOutBack', //uses jQuery easing plugin
+					speed: 750,
+					transition: 'fadeOut',
+					zIndex: 2
+					, modalClose: true
+                });
+            });*/
+			jQuery('#exit_popup_elements_close, #lp_exit_popup_form_nothanks').click(function() {
+			  var bPopup = jQuery('#page_exit_popup_elements').bPopup({
+					  easing: 'easeOutBack', //uses jQuery easing plugin
+					  speed: 650,
+					  transition: 'fadeOut'
+					  });
+			  bPopup.close(); 
+	   });
+ });
+		
+</script>
 
 
-    <!-- Page Preloader (only used on index pages) -->
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0026/0834.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
 
-    <div class="tp--preloader">
-       <div class="tp--spinner loader">
-        <div class="loader-inner ball-beat">
-          <div></div><div></div><div></div>
+<!-- Begin Inspectlet Embed Code -->
+<script type="text/javascript" id="inspectletjs">
+window.__insp = window.__insp || [];
+__insp.push(['wid', 1617268505]);
+(function() {
+function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', __ldinsp) : window.addEventListener('load', __ldinsp, false)) : __ldinsp();
+
+})();
+</script>
+<!-- End Inspectlet Embed Code -->
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+ 
+</head>
+<style>
+.about-img {
+    text-align:center;
+}
+.about-img-class {
+    width:100%;
+}
+</style>
+<style>
+.carousel-control.left,.carousel-control.right {background-image:none;width:25px;}
+.carousel-control{color:#333}
+.carousel-control:hover, .carousel-control:focus{color:#333}
+</style>
+<link rel="stylesheet" type="text/css" href="css/taxi.css">
+<body class="lp_v1">
+
+    <div class="header">
+        <div class="wrapper">
+        <div id="logo"><a href="https://roweium.github.io/"><img src="/r-wt-logo.png" alt="Logo"></a></div><div class="top_call_btn"><a href="tel:+12062572964">+1 206-257-2964</a></div>
         </div>
-       </div>
     </div>
-
-
-
-    {% include navbar.html %}
-
-    {% include header.html %}
     
+    <section id="lp_sec_1" class="lp_sec_1">
+       <div class="wrapper lp_top_banner">
+          <div class="lp_sec1_left">
+          <h1>Need a complete taxi app solution?<br/>
+          We can do it for you.</h1>
+          
+          <p>As on-demand solutions expert, we understand the core technology required to build a complete taxi app solution. From customer to driver to admin, we provide interface for all three user types.</p>
+          
+          <h4 style="margin:0; font-size:32px;">What we offer?</h4>
+          <ul style="list-style:none;padding-left: 0px; margin-top:0;">
+          <li style="background: url(images/right-arrow.png) no-repeat left top; margin-top:3%;"><span style="font-weight:600; font-size:24px;">Customer App</span></li>
+          <li style="background: url(images/right-arrow.png) no-repeat left top; margin-top:3%;"><span style="font-weight:600; font-size:24px;">Driver App</span></li> 
+          <li style="background: url(images/right-arrow.png) no-repeat left top; margin-top:3%;"><span style="font-weight:600; font-size:24px;">Manager App</span></li> 
+          <li style="background: url(images/right-arrow.png) no-repeat left top; margin-top:3%;"><span style="font-weight:600; font-size:24px;">Admin Dashboard</span></li>  
+          </ul>
+          <div class="arrow_point"></div>
+          </div>
+          <div id="lp_sec1_right" class="lp_sec1_right">
+             
+             <div class="lp_sec1_right_cForm">
+               <div class="lp_sec1_right_cForm_inner">
+       <h4 id="lp_form_title" style="">Create on-demand Taxi app</h4>
+       <!--h5>We create tech solutions for on-demand apps</h5-->
+<form class="form" id="lp_form" name="lp_form" method="post" action="/landing/taxi-app.php" autocomplete="off">
+<input style="display:none;" type="text" class="form-input" placeholder="Name*" autofocus>
+<input type="text" class="form-input" placeholder="Name*" name="lpName" id="lpName" >
+<input class="form-input" placeholder="Email*" type="text" name="lpEmail" id="lpEmail" > 
+<input class="form-input" placeholder="Phone*" type="text" name="lpPhone" id="lpPhone" >
+<textarea class="comments" placeholder="Message" name="lpMsg" id="lpMsg" cols="10" rows="4"></textarea><br>
+<input type="hidden" maxlength="4000" name="fname" id="fname" class="cat_textbox" value="">
+<input type="hidden" name="url" class="url" value="http://click-labs.com/landing/taxi-app.php">
 
-<!-- START MAIN FEATURES -->
-		<section class="why_choose_us section-padding">
-			<div class="container">
-				<div class="row">
-					<div class="section-title text-center wow zoomIn">
-						<h2>Features</h2>
-						<div class="line"></div>
-						<p>We've got a lot of amazing and cool features.</p>						
-					</div>					
-					<div class="col-md-6 col-sm-6 col-xs-12">
-						<div id="why_choose">
-							<!-- Wrapper for slides -->
-							<div class="row ">	
-								<div class="col-sm-6">
-									<div class="single_feature">
-										<i class="fa fa-heart-o"></i>
-										<h3>Made with Love</h3>
-										<span></span>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum ante vel aliquet euismod. </p>	
-									</div>
-								</div><!-- END COL-->								
-								<div class="col-sm-6">
-									<div class="single_feature">
-										<i class="fa fa-magic"></i>
-										<h3>Powerful</h3>
-										<span></span>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum ante vel aliquet euismod. </p>	
-									</div>
-								</div><!-- END COL-->					
-								<div class="col-sm-6">
-									<div class="single_feature">
-										<i class="fa fa-paper-plane-o"></i>
-										<h3>Send Messages</h3>
-										<span></span>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum ante vel aliquet euismod. </p>
-									</div>
-								</div><!-- END COL-->							
-								<div class="col-sm-6">
-									<div class="single_feature">
-										<i class="fa fa-money"></i>
-										<h3>Save Money</h3>
-										<span></span>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum ante vel aliquet euismod. </p>
-									</div>
-								</div><!-- END COL-->
-							</div><!-- END CAROUSEL INNER -->
-						</div><!-- END CAROUSEL SLIDE -->				
-					</div><!--- END COL -->
-					<div class="col-md-6 col-sm-6 col-xs-12"> 
-						<div class="feature_img">
-							<img src="assets/img/mockup.jpg" alt="">
-						</div>
-					</div><!--- END COL -->						
-				</div><!--- END ROW -->			
-			</div><!--- END CONTAINER -->		
-		</section>
-		<!-- END MAIN FEATURES -->
-		
-		<!-- START APP SCREENSHOT  -->
-		<section id="screenshots" class="app-screenshot section-padding">
-			<div class="container">
-				<div class="row">
-					<div class="section-title text-center wow zoomIn">
-						<h2>Screenshots</h2>
-						<div class="line"></div>
-						<p>Our awesome app screenshot gallery here.</p>
-					</div>				
-					<div class="col-md-10 col-md-offset-1">
-						<div class="screenshot-carousel" data-carousel-3d>
-							<img src="assets/img/screenshot/app1.jpg" alt="">
-							<img src="assets/img/screenshot/app2.jpg" alt="">
-							<img src="assets/img/screenshot/app3.jpg" alt="">
-							<img src="assets/img/screenshot/app4.jpg" alt="">
-							<img src="assets/img/screenshot/app5.jpg" alt="">
-						</div>
-					</div><!--- END COL -->
-				</div><!--- END ROW -->			
-			</div><!--- END CONTAINER -->	
-		</section>
-		<!-- END APP SCREENSHOT -->
-		
-		<!-- START HOW IT WORKS -->
-		<section class="about_video" style="background-image: url(assets/img/bg/video-bg.jpg); background-size:cover; background-position: center center;background-attachment:fixed;">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 col-sm-12 col-xs-12 text-center">
-						<div class="video-container">                  						
-							<a data-toggle="modal" data-target="#video-modal" data-backdrop="true">
-							<span class="play-video"><span class="fa fa-play"></span></span></a>
-							<h3>Watch video</h3>
-						</div>
-						<!-- VIDEO POPUP -->
-						<div class="modal fade video-modal" id="video-modal" role="dialog">
-							<div class="modal-content">
-								<iframe width="712" height="400" src="https://www.youtube.com/embed/EWan2YcodSM"></iframe>
-							</div>
-						</div>
-						<!-- END VIDEO POPUP -->	
-					</div><!--- END COL -->					
-				</div><!--- END ROW -->
-			</div><!--- END CONTAINER -->	
-		</section>
-		<!-- END HOW IT WORKS -->
+<input type="hidden" name="Source" class="Source">
+<input type="hidden" name="Medium" class="Medium">
+<input type="hidden" name="Campaign" class="Campaign">
+<input type="hidden" name="KeyWord" class="KeyWord">
+<input class="cat_button lpSubmit" type="submit" value="Get In Touch" name="lpSubmit" id="lpSubmit"><div class="loader"></div>
+</form>
+      <p id="form_privacy_txt">Your privacy is important to us. <br/>We'll never share your information.</p>   
+               </div>
+               <div class="form_footer_bg"></div>
+             </div>
+             
 
-		<!-- START MORE FEATURES -->
-		<section class="more_features section_padding">
-			<div class="container">			
-				<div class="row">
-					<div class="section-title text-center wow zoomIn">
-						<h2>More Features</h2>
-						<div class="line"></div>
-						<p>We've got a lot of features, here are some more</p>
-					</div>					
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="single_more_feature">
-							<div class="bg-icon">
-								<span class="fa fa-heart"></span>
-							</div>
-							<div class="single_icon">
-								<span class="fa fa-heart"></span>
-							</div>
-							<div class="single_text">
-								<h3>Made with Love</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, explicabo.</p>
-							</div>
-						</div>
-					</div><!--- END COL -->	
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="single_more_feature">
-							<div class="bg-icon">
-								<span class="fa fa-paper-plane-o"></span>
-							</div>
-							<div class="single_icon">
-								<span class="fa fa-paper-plane-o"></span>
-							</div>
-							<div class="single_text">
-								<h3>Send Messages</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, explicabo.</p>
-							</div>
-						</div>
-					</div><!--- END COL -->	
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="single_more_feature">
-							<div class="bg-icon">
-								<span class="fa fa-trophy"></span>
-							</div>
-							<div class="single_icon">
-								<span class="fa fa-trophy"></span>
-							</div>
-							<div class="single_text">
-								<h3>Award Winning</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, explicabo.</p>
-							</div>
-						</div>
-					</div><!--- END COL -->	
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="single_more_feature">
-							<div class="bg-icon">
-								<span class="fa fa-money"></span>
-							</div>
-							<div class="single_icon">
-								<span class="fa fa-money"></span>
-							</div>
-							<div class="single_text">
-								<h3>Save Money</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, explicabo.</p>
-							</div>
-						</div>
-					</div><!--- END COL -->	
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="single_more_feature">
-							<div class="bg-icon">
-								<span class="fa fa-cog"></span>
-							</div>
-							<div class="single_icon">
-								<span class="fa fa-cog"></span>
-							</div>
-							<div class="single_text">
-								<h3>Customizable</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, explicabo.</p>
-							</div>
-						</div>
-					</div><!--- END COL -->	
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="single_more_feature">
-							<div class="bg-icon">
-								<span class="fa fa-database"></span>
-							</div>
-							<div class="single_icon">
-								<span class="fa fa-database"></span>
-							</div>
-							<div class="single_text">
-								<h3>Data Report</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, explicabo.</p>
-							</div>
-						</div>
-					</div><!--- END COL -->		
-				</div><!--- END ROW -->
-			</div><!--- END CONTAINER -->
-		</section>
-		<!-- END MORE FEATURES -->
 
-    {% include footer.html %}
+<style type="text/css">
+.loader {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #F45C05;
+  width: 15px;
+  height: 15px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  position: absolute;
+  margin-left: 14%;
+  margin-top: -40px;
 
-    {% include modals.html %}
+}
 
-    {% include javascript.html %}
-	  
-  </body>
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
 
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$('.loader').hide();
+
+});
+
+jQuery.validator.addMethod("validEmail", function(value, element) 
+{
+    if(value == '') 
+        return true;
+    var temp1;
+    temp1 = true;
+    var ind = value.indexOf('@');
+    var str2=value.substr(ind+1);
+    var str3=str2.substr(0,str2.indexOf('.'));
+    if(str3.lastIndexOf('-')==(str3.length-1)||(str3.indexOf('-')!=str3.lastIndexOf('-')))
+        return false;
+    var str1=value.substr(0,ind);
+    if((str1.lastIndexOf('_')==(str1.length-1))||(str1.lastIndexOf('.')==(str1.length-1))||(str1.lastIndexOf('-')==(str1.length-1)))
+        return false;
+    str = /(^[a-zA-Z0-9]+[\._-]{0,1})+([a-zA-Z0-9]+[_]{0,1})*@([a-zA-Z0-9]+[-]{0,1})+(\.[a-zA-Z0-9]+)*(\.[a-zA-Z]{2,3})$/;
+    temp1 = str.test(value);
+    return temp1;
+}, "Please enter valid email.");
+
+$(document).ready(function() {
+		// validate the comment form when it is submitted
+
+		// validate signup form on keyup and submit
+		$("#lp_form").validate({
+			rules: {
+				lpName: "required",
+				
+			
+				lpPhone: {
+					required: true,
+					minlength: 10,
+					number: true
+				
+				},
+				lpEmail: {
+					required: true,
+					validEmail: true
+				},
+				
+			
+			},
+		errorPlacement: function(){
+            return false;
+        }
+       
+		});
+});
+
+</script>
+
+<style type="text/css">
+.error {
+
+    border: 1px solid #f00 !important;
+}
+
+.valid {
+    border: 1px solid #ccc;
+}
+</style>             
+          </div>
+       </div>
+    </section>
+    
+      <section class="grid_app_sec_m lp_sec_2">   
+         <div class="grid_app_sec">
+            <ul>
+             <li><img src="images/ambee-nav.png" alt=""></li>
+            <li><img src="images/jugnoo-nav.png" alt=""></li>      
+            <li><img src="images/obhai-nav.png" alt=""></li>
+            <li><img src="images/swyft-nav.png" alt=""></li>
+            <li><img src="images/appolo-nav.png" alt=""></li>        
+            <li><img src="images/pazio-nav.png" alt=""></li>
+            </ul>
+         </div>   
+    </section>
+<style>
+.hdd {
+    font-weight:600;
+    font-size:40px;
+    line-height:1;
+}
+</style>
+<!-- Silder start -->
+    <section class="subSlider fullwidth">
+<div class="container">
+<div class="hdd">Taxi On-Demand</div>
+Connect your taxi fleet to millions of customers
+</div>
+<div class="carousel-reviews broun-block" id="carousel1">
+    <div class="container">
+        <div class="row">
+            <div id="carousel-reviews" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                	    <div class="col-md-4 col-sm-6">
+        				    <div class="li-icon"><img src="https://tookan.staging.wpengine.com/wp-content/uploads/2017/02/advanced-fleet-management.png"></div>
+                <span>Advanced Fleet Management</span>
+                <p>Maintain a driver database with real-time availability. Auto-assign rides and assess driver performance</p>
+						</div>
+            			<div class="col-md-4 col-sm-6 ">
+						   <div class="li-icon"><img src="https://tookan.staging.wpengine.com/wp-content/uploads/2017/02/route-optimization.png"></div>
+                <span>Real Time Tracking</span>
+                <p>Using our tracking SDK and Customer App, let your customers geo track pin point location of the drivers</p>
+						</div>
+						<div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+							<div class="li-icon"><img src="https://tookan.staging.wpengine.com/wp-content/uploads/2017/02/customer-app-3.png"></div>
+                <span>Custom App</span>
+                <p>Tookan enables you to customize a ride-booking app for your customers, which is essential to boosting booking volumes and maintaining an unbroken link with customers</p>
+							
+						</div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-4 col-sm-6">
+        				    <div class="li-icon"><img src="https://tookan.staging.wpengine.com/wp-content/uploads/2017/02/geoanalytics.png"></div>
+                <span>Geoanalytics</span>
+                <p>Specify driving zones using geofencing. Use them to automatically assign rides in the area and gather insightful data on a map-based UI</p>
+							
+						</div>
+            			<div class="col-md-4 col-sm-6 hidden-xs">
+						    <div class="li-icon"><img src="https://tookan.staging.wpengine.com/wp-content/uploads/2017/02/customer-notifications.png"></div>
+                <span>Automated Customer Notifications</span>
+                <p>Don’t keep riders waiting. Keep them posted at every step of the way with automated notifications</p>
+						</div>
+						<div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+							<div class="li-icon"><img src="https://tookan.staging.wpengine.com/wp-content/uploads/2017/02/customer-feedback.png"></div>
+                <span>Customer Feedback</span>
+                <p>Comprehensive ratings and reviews on all your rides and drivers</p>
+						</div>
+                    </div>
+                 
+                </div>
+                <a class="left carousel-control" href="#carousel-reviews" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-reviews" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="carousel-reviews broun-block" id="carousel2">
+    <div class="container">
+        <div class="row">
+            <div id="carousel-reviews1" class="carousel slide" data-ride="carousel">
+            <!-- Bottom Carousel Indicators -->        
+                <div class="carousel-inner">
+                    <div class="item active">
+                	<div class="col-md-4 col-sm-6">
+        				    <div class="li-icon"><img src="https://tookan.staging.wpengine.com/wp-content/uploads/2017/02/advanced-fleet-management.png"></div>
+                <span>Advanced Fleet Management</span>
+                <p>Maintain a driver database with real-time availability. Auto-assign rides and assess driver performance</p>
+						</div>
+                    </div>
+                    <div class="item">
+                    <div class="col-md-4 col-sm-6">
+						   <div class="li-icon"><img src="https://tookan.staging.wpengine.com/wp-content/uploads/2017/02/route-optimization.png"></div>
+                <span>Real Time Tracking</span>
+                <p>Using our tracking SDK and Customer App, let your customers geo track pin point location of the drivers</p>
+						</div>
+                    </div>
+                     <div class="item">
+                    <div class="col-md-4 col-sm-6">
+							<div class="li-icon"><img src="https://tookan.staging.wpengine.com/wp-content/uploads/2017/02/customer-app-3.png"></div>
+                <span>Booking App</span>
+                <p>Tookan enables you to customize a ride-booking app for your customers, which is essential to boosting booking volumes and maintaining an unbroken link with customers</p>
+							
+						</div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-4 col-sm-6">
+        				    <div class="li-icon"><img src="https://tookan.staging.wpengine.com/wp-content/uploads/2017/02/geoanalytics.png"></div>
+                <span>Geoanalytics</span>
+                <p>Specify driving zones using geofencing. Use them to automatically assign rides in the area and gather insightful data on a map-based UI</p>
+							
+						</div>
+                    </div>
+                    <div class="item">
+                    <div class="col-md-4 col-sm-6">
+						    <div class="li-icon"><img src="https://tookan.staging.wpengine.com/wp-content/uploads/2017/02/customer-notifications.png"></div>
+                <span>Automated Customer Notifications</span>
+                <p>Don’t keep riders waiting. Keep them posted at every step of the way with automated notifications</p>
+						</div>
+                     </div>
+                     <div class="item">
+						<div class="col-md-4 col-sm-6">
+							<div class="li-icon"><img src="https://tookan.staging.wpengine.com/wp-content/uploads/2017/02/customer-feedback.png"></div>
+                <span>Customer Feedback</span>
+                <p>Comprehensive ratings and reviews on all your rides and drivers</p>
+						</div>
+                     </div>
+                 
+                </div>
+                <a class="left carousel-control" href="#carousel-reviews1" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-reviews1" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+      
+
+<!--a href="https://tookanapp.com/features/" class="action">View all Features</a-->
+</section>
+<!-- Silder end -->
+
+    <section class="lp_sec_3">   
+        <div class="wrapper">
+            <h3>About Click Labs</h3>
+            <p>Click Labs offers enterprise grade technology solutions with a focus on mobility. We are market leaders in delivering mobility solutions to entrepreneurs and enterprises looking to provide an omni channel experience to their customers. Our mission is to engineer and maximize mobile ROI.</p>
+        </div>
+    </section>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>   
+<script src="/landing/js/lead/custom_jq.js"></script> 
+  <section class="lp_sec_4 footer">   
+       <div class="wrapper">
+       <p>Click Labs © 2017. All Rights Reserved.</p>
+       </div>
+  </section>
+  
+ <!--/* @@@@@@@@@@@@@@@@@@@@@@@@   POP UP Settings   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/--> 
+  <style type="text/css">
+		 #element_to_pop_up { display:none; }
+		 </style>
+        
+   <!--/* @@@@@@@@@@@@@@@@@@@@@@@@   Exit POP UP Settings   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/--> 
+  <style type="text/css">
+		 #page_exit_popup_elements { display:none; }
+		 </style>
+         <!--<button id="page_exit_popup_btn">POP IT UP</button>-->
+            <!-- Element to pop up -->
+            <div id="page_exit_popup_elements" class="page_exit_popup_elements">
+              <div class="lp_exit_popup_inner">
+                <div id="exit_popup_elements_close">&times;</div>
+                <div class="lp_exit_popup_l">
+                  <h3 class="">Looking for a Technology Partner</h3>
+                  <h4 style="margin-bottom: 30px;">No one can offer a better value proposition</h4>
+                  <h4 style="margin-bottom: 45px;color:#1e1e1e;font-size:22px;">Give us 15 minutes or few emails<span style="display: block;color: #1e1e1e;">if we can't convince you, no one can!</span></h4>
+                </div>
+                <!--div style="clear:both;"></div>
+                <form class="lp_exit_popup_form" method="post">              
+                  <input placeholder="Email*" type="email" name="Email" id="lpExitEmail" required>
+                  <input class="JpExitSubmit" type="button" value="Enter" name="lpExitSubmit" id="JgExitSubmitnew">
+                </form>
+                </div style="clear: both;"></div-->
+            
+              <!-- Used to fire the modal -->
+    <script type="text/javascript">
+  //     // if you want to use the 'fire' or 'disable' fn,
+  //     // you need to save OuiBounce to an object
+  //     var _ouibounce = ouibounce(document.getElementById('ouibounce-modal'), {
+		// //If you enable aggressive, the modal will fire any time the page is reloaded, for the same user.
+  //       aggressive: false,
+		// //Set a min time in ms before Ouibounce fires
+  //       timer: 50,
+		//  delay: 400,
+		//  //Ouibounce fires when the mouse cursor moves close to (or passes) the top of the viewport. You can define how far the mouse has to be before Ouibounce fires. The higher value, the more sensitive, and the more quickly the event will fire. Defaults to 20.
+		//  //sensitivity: 40,
+  //       callback: function() { console.log('ouibounce fired!'); 
+		// $('#page_exit_popup_elements').bPopup({
+					
+		// 			//easing: 'easeOutBack', //uses jQuery easing plugin
+		// 			speed: 400,
+		// 			transition: 'fadeOut',
+		// 			zIndex: 2
+		// 			, modalClose: false   //Should the popup close on click on overlay
+  //               });
+				
+		// 	 ga('send', 'event', { eventCategory: 'Exit_popup', eventAction: 'Auto', eventLabel: 'Business_Model'});
+		// 	 }
+  //     });
+  //     $('#exit_popup_elements_close, #lp_exit_popup_form_nothanks').on('click', function() {
+  //       $('#page_exit_popup_elements').hide();
+  //     });
+
+    </script>
+   <!--/* ///END @@@@@@@@@@@@@@@@@@@@@@@@   Exit POP UP Settings   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/-->
+
+
+<!--google analytics  -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+  ga('create', 'UA-54094957-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');  
+  </script>
+  <!--///google analytics  -->
+  
+  <!--Facebook retargeting Code-->
+<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+  _fbq.push(['addPixelId', '249401338553803']);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=249401338553803&amp;ev=PixelInitialized" /></noscript>
+<!-- /// Facebook retargeting Code-->
+
+<!--  Autopilot -->     
+        <script type="text/javascript">(function(){var c=encodeURIComponent,s="SCRIPT",d=document,e=d.createElement(s),t=d.getElementsByTagName(s)[0],p="t="+c(d.title||"")+"&u="+c(d.location.href||"")+"&r="+c(d.referrer||"");e.src="https://api.autopilothq.com/anywhere/2d3647822130453187cf359f5315b9a362d329ce21934af8af3f886e1cf8c136?"+p;e.type="text/javascript";e.async=true;t.parentNode.insertBefore(e, t);})();</script>   
+    <!-- Autopilot   --> 
+    
+    <!-- Begin Inspectlet Embed Code -->
+<script type="text/javascript" id="inspectletjs">
+window.__insp = window.__insp || [];
+__insp.push(['wid', 862666343]);
+(function() {
+function ldinsp(){if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
+})();
+</script>
+<!-- End Inspectlet Embed Code -->
+  
+</body>
 </html>
